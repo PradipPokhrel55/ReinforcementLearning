@@ -1,25 +1,31 @@
-#implemented reinforcement learning in snake game
+# 🐍 Reinforcement Learning in Snake Game
 
-Implementation of Deep Q-learning in a snake game and sanke learns to play the snake game by itself.
+This project implements **Deep Q-Learning** for the classic Snake game. The agent learns to play the game by itself using reinforcement learning techniques.
 
+---
 
-##used technology
+## 🔧 Technologies Used
 
-language: Python 
-model building: Pytorch
-others: numpy , matplotlib 
+- **Language**: Python  
+- **Model Building**: PyTorch  
+- **Others**: NumPy, Matplotlib, Pygame
 
-##Getting started 
-. **Clone the repository**
+---
+
+## 🚀 Getting Started
+
+### 
+1. Clone the Repository
+
    ```bash
-   git clone https://github.com/PradipPokhrel55/ReinforcementLearning/tree/main/Snake
-   
+   git clone https://github.com/PradipPokhrel55/ReinforcementLearning.git
+   cd ReinforcementLearning/Snake
 ##
 
 2. **Create and activate a virtual environment**
 
    ```bash
-   python -m venv venv
+   python3.10 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 ##
 
@@ -33,3 +39,5 @@ others: numpy , matplotlib
 
 After training my agent for over 1000+ games, I finally achieved a score of 30!
 This plot shows how the model learns, improves, and adapts over time.
+<img width="1440" alt="Screenshot 2024-11-05 at 23 53 47" src="https://github.com/PradipPokhrel55/ReinforcementLearning/blob/main/RL1.jpeg">
+<img width="1440" alt="Screenshot 2024-11-05 at 23 53 47" src="https://github.com/PradipPokhrel55/ReinforcementLearning/blob/main/RL2.jpeg">
